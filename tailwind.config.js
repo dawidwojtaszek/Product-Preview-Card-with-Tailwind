@@ -4,9 +4,11 @@ module.exports = {
   theme: {
     colors: {
       darkCyan: "hsl(158, 36%, 37%)",
+      darkerCyan: "#1a4031",
       cream: "hsl(30, 38%, 92%)",
       veryDarkBlue: "hsl(212, 21%, 14%)",
       darkGrayishBlue: "hsl(228, 12%, 48%)",
+      white: "#fff",
     },
     fontFamily: {
       body: ["Montserrat", "sans-serif"],
@@ -14,9 +16,9 @@ module.exports = {
     },
     screens: {
       sm: "480px",
-      md: "640px",
+      md: "680px",
       lg: "976px",
-      xl: "1440",
+      xl: "1440px",
     },
     extend: {},
   },
